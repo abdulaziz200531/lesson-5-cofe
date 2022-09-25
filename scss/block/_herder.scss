@@ -1,0 +1,31 @@
+.site-header {
+  padding: 43px 20px;
+}
+.site-header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar__list {
+  display: flex;
+  align-items: center;
+}
+.navbar__item {
+  margin-left: 33px;
+}
+.navbar__list {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+  color: #83888f;
+  transition: all 0.7s ease;
+}
+.navbar__list:hover{
+    color: #333D4B;
+    transition: all 0.7s ease;
+}
+

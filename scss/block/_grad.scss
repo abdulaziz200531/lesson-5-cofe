@@ -1,0 +1,53 @@
+.site-grad__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 180px;
+  background-image: url('../../img/cofe.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center -50px;
+}
+.content-box__title {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #333d4b;
+  margin-top: 71px;
+  margin-bottom: 24px;
+}
+.content-box__text {
+  max-width: 255px;
+  max-height: 78px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #333d4b;
+}
+
+@media only screen and (max-width: 1060px) {
+  .content-box {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  .site-grad__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .content-box__title{
+    margin-top: 0;
+    text-align: start;
+  }
+  .content-box__text{
+    text-align: start;
+  }
+
+}

@@ -1,0 +1,129 @@
+.site-colum__container__title {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #83888f;
+  margin-bottom: 95px;
+}
+.col-box--content {
+  display: flex;
+  align-items: center;
+  gap: 90px;
+  margin-bottom: 200px;
+}
+.col-box {
+  margin-top: 82px;
+  max-width: 285px;
+  max-height: 355px;
+}
+.col-box__title {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: #fdd6ba;
+  margin-bottom: 38px;
+}
+.col-box__title-box1 {
+  max-width: 210px;
+}
+.col-box__title-box {
+  max-width: 255px;
+  max-height: 73px;
+}
+.col-box__title1 {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color: #333d4b;
+  margin-bottom: 42px;
+}
+.col-box__title2 {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color: #333d4b;
+  margin-bottom: 48px;
+}
+.col-box__text-box {
+  max-width: 285px;
+  max-height: 130px;
+}
+.col-box__text {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333d4b;
+}
+.col-box__btn {
+  padding: 15px 32px;
+  background: #66d2cf;
+  border-radius: 6px;
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #fefcf7;
+  margin-top: 64px;
+  border: none;
+  transition: all 2s ease;
+}
+.col-box__btn:hover{
+    background-color: #333d4b;
+    transition: all 2s ease;
+}
+.col-box__btn:focus{
+    background-color: #83888f;
+    transition: all 1s ease;
+}
+@media only screen and (max-width:1060px) {
+    .site-colum{
+        max-width: 689px;
+        max-height: 622px;
+        margin: 0 auto;
+        margin-left: 150px;
+    }
+    .col-box{
+        max-width: 223px;
+        max-height: 371px;
+    }
+    .col-box__text-box{
+        max-width: 223px;
+        max-height: 154px;
+    }
+    .col-box--content {
+        gap: 25px;
+        align-items: center;
+    }
+    .col-box__title-box1 {
+        max-width: 210px;
+      }
+      .col-box__title-box {
+        max-width: 223px;
+        max-height: 65px;
+      }
+      .col-box__text-box {
+        max-width: 223px;
+        max-height: 154px;
+      }
+      .col-box__title2 {
+        margin-bottom: 38px;
+      }
+      .col-box1{
+        margin-top: 70px;
+      }
+      .col-box__text{
+        margin-top: 38px;
+      }
+}
